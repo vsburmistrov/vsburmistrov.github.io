@@ -2,28 +2,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Vsevolod Burmistrov – Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px auto; max-width: 960px; padding: 0 20px; line-height: 1.6; color: #333; }
-        h1, h2 { color: #1e3a5f; }
-        h3 { margin-top: 1.5em; }
+        body { font-family: Arial, sans-serif; margin: 0 auto; padding: 40px 20px; max-width: 960px; line-height: 1.6; background: #fff; color: #222; }
+        h1, h2, h3 { text-align: center; color: #003366; }
+        .hero { text-align: center; margin-bottom: 30px; }
+        .hero-text { font-size: 1.3em; color: #555; margin-top: 6px; }
+        .lang-switch { text-align: center; margin-bottom: 30px; }
+        .lang-switch a { margin: 0 10px; text-decoration: none; font-weight: bold; color: #003366; }
         ul { padding-left: 20px; }
-        .recommendation { background: #f9f9f9; border-left: 4px solid #3498db; padding: 12px 16px; margin-bottom: 20px; }
-        .recommender { font-weight: bold; display: block; margin-top: 8px; }
-        .lang { margin-bottom: 20px; }
-        .lang a { margin-right: 15px; font-weight: bold; color: #1e3a5f; text-decoration: none; }
+        li { margin-bottom: 8px; }
+        .section { margin-top: 40px; }
+        .recommendation { background: #f9f9f9; border-left: 4px solid #007acc; padding: 20px; margin: 20px auto; max-width: 700px; }
+        .quote { font-style: italic; }
+        .author { text-align: right; margin-top: 10px; font-weight: bold; }
     </style>
 </head>
 <body>
-<h1>Vsevolod Burmistrov</h1>
-<div class="lang">
+
+<div class="hero">
+    <h1>Vsevolod Burmistrov</h1>
+    <p class="hero-text">I lead complex projects to simple, measurable success</p>
+</div>
+
+<div class="lang-switch">
     <a href="#english">English</a> | <a href="#russian">Русский</a> |
     <a href="https://www.linkedin.com/in/vsevolod-burmistrov">LinkedIn</a> |
     <a href="https://hh.ru/resume/2e6f464aff0ee817de0039ed1f4d7a724b7759">hh.ru</a>
 </div>
 
-<div id="english">
+<div class="section" id="english">
     <h2>Key Metrics</h2>
     <ul>
         <li>20+ years in project and program management</li>
@@ -42,18 +51,18 @@
     </ul>
     <h3>ERP / CRM / BPM</h3>
     <ul>
-        <li>ERP for 400+ users, CRM upgrades, process reengineering (Shopping Live)</li>
+        <li>ERP for 400+ users, CRM upgrades, business process reengineering (Shopping Live)</li>
         <li>Project Management System for Tax Practice (Deloitte)</li>
     </ul>
     <h3>Client Services</h3>
     <ul>
-        <li>OCR: 130K+ documents monthly automated (Amway)</li>
-        <li>Self-service retail system – 1st in CIS (Amway)</li>
-        <li>Digital service catalog for external clients (Amway)</li>
+        <li>OCR automation – 130K docs/month (Amway)</li>
+        <li>Self-Service retail system – 1st in CIS (Amway)</li>
+        <li>Digital self-service catalog (Amway)</li>
     </ul>
     <h3>Shared Services</h3>
     <ul>
-        <li>Finance, HR, Legal, IT SSC for 80+ entities (Orient Group)</li>
+        <li>Finance, HR, Legal, IT SSC for 80+ legal entities (Orient Group)</li>
     </ul>
 
     <h2>Skills & Certifications</h2>
@@ -69,20 +78,20 @@
 
     <h2>Recommendations</h2>
     <div class="recommendation">
-        “I had the opportunity to work with Vsevolod Burmistrov, a skilled professional in the field of project management…”
-        <span class="recommender">— Jury Struczewski</span>
+        <p class="quote">"I had the opportunity to work with Vsevolod Burmistrov, a skilled professional in the field of project management. He successfully managed numerous internal system implementations and was instrumental in streamlining collaboration across departments."</p>
+        <div class="author">— Jury Struczewski</div>
     </div>
     <div class="recommendation">
-        “Very dedicated professional... Responsible for the multi-million project budget…”
-        <span class="recommender">— Markus Kirchner</span>
+        <p class="quote">"Very dedicated professional with excellent skills in handling complex transformation initiatives. Vsevolod was responsible for a multi-million budget project and proved to be a strategic thinker and team-oriented leader."</p>
+        <div class="author">— Markus Kirchner</div>
     </div>
     <div class="recommendation">
-        “His key quality is to find an approach to every employee and solve any issues and conflicts…”
-        <span class="recommender">— Daria Klimovich</span>
+        <p class="quote">"His key quality is to find an approach to every employee and solve any issues and conflicts. Thanks to him, we built a full-cycle delivery system and transformed project execution efficiency."</p>
+        <div class="author">— Daria Klimovich</div>
     </div>
 </div>
 
-<div id="russian">
+<div class="section" id="russian">
     <h2>Ключевые метрики</h2>
     <ul>
         <li>20 лет в управлении проектами и программами</li>
@@ -96,23 +105,23 @@
     <h3>Цифровизация и ИИ</h3>
     <ul>
         <li>Портал управления практиками на 4000+ сотрудников (Deloitte)</li>
-        <li>Инвестплатформа с ИИ (Acceleration)</li>
+        <li>Инвестиционная платформа с ИИ (Acceleration)</li>
         <li>Автоматизация процессов через ServiceNow / Jira (Deloitte)</li>
     </ul>
     <h3>ERP / CRM / BPM</h3>
     <ul>
-        <li>ERP для 400+ пользователей, обновления CRM, реинжиниринг процессов (Shopping Live)</li>
+        <li>ERP для 400+ пользователей, обновление CRM, реинжиниринг процессов (Shopping Live)</li>
         <li>Система управления проектами в налоговой практике (Deloitte)</li>
     </ul>
-    <h3>Клиентские сервисы</h3>
+    <h3>Обслуживание клиентов</h3>
     <ul>
         <li>OCR: автоматизация обработки 130 тыс. документов в месяц (Amway)</li>
-        <li>Система самообслуживания – первая в СНГ (Amway)</li>
-        <li>Электронный каталог внешних сервисов (Amway)</li>
+        <li>Система самообслуживания в ритейле — первая в СНГ (Amway)</li>
+        <li>Электронный каталог для внешних клиентов (Amway)</li>
     </ul>
     <h3>Общие сервисы</h3>
     <ul>
-        <li>ЦФО: финансы, HR, юридические и ИТ функции для 80+ юрлиц (Orient Group)</li>
+        <li>ЦФО: финансы, HR, юридические и ИТ для 80+ юрлиц (Orient Group)</li>
     </ul>
 
     <h2>Навыки и сертификации</h2>
@@ -122,19 +131,20 @@
         <li><b>Коммуникации:</b> MS Teams, Zoom, Slack</li>
         <li><b>Совместная работа:</b> Miro, Canva</li>
         <li><b>Моделирование процессов:</b> MS Visio, ARIS</li>
-        <li><b>Управление:</b> стейкхолдеры, риски, бюджеты</li>
+        <li><b>Управление:</b> взаимодействие со стейкхолдерами, рисками, бюджетами</li>
         <li><b><strong>Сертификации:</strong></b> PME (PM Expert), Microsoft Project Server</li>
     </ul>
 
     <h2>Рекомендации</h2>
     <div class="recommendation">
-        «Сева — профессионал высокого уровня, способный в кратчайшие сроки организовать работу и выстроить отношения со всеми заинтересованными сторонами, даже с "проблемными". Он не только хочет, но и умеет делиться знаниями и объяснять сложные вещи простыми словами…»
-        <span class="recommender">— Регина Абдуллина</span>
+        <p class="quote">«Сева — профессионал высокого уровня, способный в кратчайшие сроки организовать работу и выстроить отношения со всеми заинтересованными сторонами, даже с "проблемными". Он не только хочет, но и умеет делиться знаниями и объяснять сложные вещи простыми словами…»</p>
+        <div class="author">— Регина Абдуллина</div>
     </div>
     <div class="recommendation">
-        «Работа под руководством Всеволода — это и вызов, и рост. Он задаёт высокие стандарты.»
-        <span class="recommender">— Олег Синицын</span>
+        <p class="quote">«Работа под руководством Всеволода — это и вызов, и рост. Он задаёт высокие стандарты, умеет вдохновить и выстроить зрелую проектную культуру даже в сложных условиях.»</p>
+        <div class="author">— Олег Синицын</div>
     </div>
 </div>
+
 </body>
 </html>
